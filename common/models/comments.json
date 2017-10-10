@@ -1,0 +1,31 @@
+{
+  "name": "Comments",
+  "base": "",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "postId": {
+      "type": "string",
+      "required": true
+    },
+    "authorId": {
+      "type": "string",
+      "required": true
+    },
+    "comment": {
+      "type": "string",
+      "required": true
+    },
+    "createdAt": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

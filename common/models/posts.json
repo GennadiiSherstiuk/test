@@ -1,0 +1,28 @@
+{
+  "name": "Posts",
+  "base": "",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "authorId": {
+      "type": "string",
+      "required": true
+    },
+    "createdAt": {
+      "type": "date",
+      "required": true
+    },
+    "subject": {
+      "type": "string",
+      "required": true,
+      "index": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

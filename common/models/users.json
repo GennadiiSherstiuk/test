@@ -1,0 +1,42 @@
+{
+  "name": "Users",
+  "base": "",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "index": true
+    },
+    "createdAt": {
+      "type": "date",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "salt": {
+      "type": "string",
+      "required": true
+    },
+    "hash": {
+      "type": "string",
+      "required": true
+    },
+    "externalId": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
